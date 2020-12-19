@@ -8,7 +8,7 @@
 ## Purpose
 ```NavigationTransitionController``` is a UINavigationController subclass that makes it incredibly easy to perform 4 different interactive transition animations seen throughout popular iOS apps. It removes the layers of complexity required to conform to adopt [UIViewControllerTransitioningDelegate](https://developer.apple.com/documentation/uikit/uiviewcontrollertransitioningdelegate), [UIViewControllerInteractiveTransitioning](https://developer.apple.com/documentation/uikit/uiviewcontrollerinteractivetransitioning), and or [UIViewControllerAnimatedTransitioning](https://developer.apple.com/documentation/uikit/uiviewcontrolleranimatedtransitioning) per each view controller you're transitioning from and or to. 
 
-Furthermore, due to restrictions pertaining to the default animations applied to a navigation controller's ```UINavigationBar``` when performing push or pop operations for view controllers, we figured it's best to create a ```UINavigationController``` subclass that presents or dismisses view controllers that manages their own resepctive navigation bars.
+Due to restrictions pertaining to the default animations applied to a navigation controller's ```UINavigationBar``` when performing push or pop operations for view controllers, we figured it's best to create a ```UINavigationController``` subclass that presents or dismisses view controllers that manages their own resepctive navigation bars.
 
 A quick look at these documentations indicate degress of complexity that require significant amount of attention and detail for it to simply work. Below are example architectures of how one might implement an interactive transition animation when navigating _from_ a view controller _to_ another view controller.
 ![Before](Resources/Before.png?raw=true "Before")
@@ -85,12 +85,10 @@ class FromViewController: UIViewController {
     }
 }
 ```
-During instance where you're scrolling through a ```UIScrollView``` object that contains multiple photos or videos in a collection such as a ```UICollectionView```, you must also update the ```NavigationTransitionController```'s ```initialView``` and ```finalView```. Drawing from the previous example above:
+During instances where you're scrolling a ```UIScrollView``` containing multiple photos or videos in a collection such as a ```UICollectionView```, you must also update the ```NavigationTransitionController```'s ```initialView``` and ```finalView```. Drawing from the previous example above:
 ```swift
 
-/**
- Assume this view controller is presenting the image-browser like the iOS Photos app.
-*/
+// Assume this view controller is presenting the image-browser like the iOS Photos app.
 class FromViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, ImageViewControllerDelegate {
 
     // MARK: - ImageViewController
@@ -112,12 +110,10 @@ class FromViewController: UIViewController, UICollectionViewDataSource, UICollec
         self.imageVC.navigationTransitionController?.updateInitialView(self.collectionView.cellForItem(at: indexPath))
     }
 }
-
-
-
-/**
- Assume this view controller is a photo-browser like the iOS Photos app. Make sure to update this class' ```navigationTransitionController```'s ```finalView``` whenever the view changes.
-*/
+```
+Then, in your ```ImageViewController``` class:
+```swift
+// Assume this view controller is a photo-browser like the iOS Photos app. Make sure to update this class' ```navigationTransitionController```'s ```finalView``` whenever the view changes.
 class ImageViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate {
     // MARK: - ImageViewControllerDelegate
     var delegate: ImageViewControllerDelegate?
@@ -145,7 +141,7 @@ class ImageViewController: UIViewController, UICollectionViewDataSource, UIColle
 ```
 
 ### Using the Interactive Transition Observer To Manage Gesture Interferences
-During instances when a ```NavigationTransitionController``` uses the ```NavigationTransitionType.presentation``` animation and its ```rootViewController``` contains scroll views that may conflict with this animation, you may utilize its closure to manage scroll states like so:
+When a ```NavigationTransitionController``` uses the ```NavigationTransitionType.presentation``` animation and its ```rootViewController``` contains scroll views that may conflict with this animation, you may utilize its closure to manage scroll states like so:
 ```swift
 class ViewControllerWithScrollView: UIViewController {
     override viewDidLoad() {
