@@ -13,7 +13,7 @@ import UIKit
 /**
  Abstract: Enum representing the type of NavigationTransitionType associated with a given view controller
  */
-@objc enum NavigationTransitionType: Int, CaseIterable {
+@objc public enum NavigationTransitionType: Int, CaseIterable {
     /// Fades the view controller's view when pushing or popping it from the navigation stack
     case fade = 0
     /// Standard view controller animation for pushing or popping

@@ -95,11 +95,10 @@ public class NavigationTransitionController: UINavigationController {
     /// - Parameter type: A NavigationTransitionType enum used to specify the transition style.
     /// - Parameter initialView: An optional UIView object used to transition between view controllers when presenting particular photos or videos like the stock gallery app
     /// - Parameter finalView: An optional UIView object used to transition between view controllers when dismissing particular photos or videos like the stock gallery app
-    init(rootViewController: UIViewController,
-         type: NavigationTransitionType = .standard,
-         initialView: UIView? = nil,
-         finalView: UIView? = nil
-         ) {
+    public init(rootViewController: UIViewController,
+                type: NavigationTransitionType = NavigationTransitionType.standard,
+                initialView: UIView? = nil,
+                finalView: UIView? = nil) {
         super.init(rootViewController: rootViewController)
         
         // MARK: - UIViewController
@@ -134,7 +133,7 @@ public class NavigationTransitionController: UINavigationController {
     /// - Parameters:
     ///   - viewController: A UIViewController referencing which view controller this navigation controller and its root view controller should be presented over
     ///   - completion: Returns a Boolean value if the presentation was successful
-    func presentNavigation(_ viewController: UIViewController?, completion: ((_ success: Bool) -> ())? = nil) {
+    public func presentNavigation(_ viewController: UIViewController?, completion: ((_ success: Bool) -> ())? = nil) {
         // Unwrap the view controller
         guard let viewController = viewController else {
             print("\(#file)/\(#line) - Couldn't unwrap the UIViewController")
@@ -175,7 +174,7 @@ public class NavigationTransitionController: UINavigationController {
     
     /// Dismisses the view controller and its navigation controller
     /// - Parameter completion: Returns a Boolean indicating whether the dismissal completed
-    func dismissNavigation(completion: ((_ success: Bool) -> ())? = nil) {
+    public func dismissNavigation(completion: ((_ success: Bool) -> ())? = nil) {
         // Update this class' NavigationTransitionOperation
         self.navigationTransitionOperation = .dismiss
         

@@ -20,7 +20,7 @@ public class NavigationTitleView: UIView {
 
 
 // MARK: - NavigationBarTitleViewAlignment
-enum NavigationBarTitleViewAlignment {
+public enum NavigationBarTitleViewAlignment {
     case left
     case center
     case right
@@ -29,7 +29,7 @@ enum NavigationBarTitleViewAlignment {
 
 
 // MARK: - NavigationBarDelegate
-@objc protocol NavigationBarDelegate {
+@objc public protocol NavigationBarDelegate {
     /// Called when the NavigationBar's TextField cleared
     /// - Parameter textField: A UITextField object that calls this method
     @objc optional func navigationBarTextFieldDidClear(_ textField: UITextField)

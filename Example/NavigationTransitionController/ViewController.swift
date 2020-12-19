@@ -7,18 +7,34 @@
 //
 
 import UIKit
+import NavigationTransitionController
+
+
+class ToViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .red
+    }
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .green
+
+        let tap = UITapGestureRecognizer(target: self, action: #selector(loadToVC(_:)))
+        tap.numberOfTapsRequired = 1
+        view.isUserInteractionEnabled = true
+        view.addGestureRecognizer(tap)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc fileprivate func loadToVC(_ sender: Any) {
+        // MARK: - ToViewController
+        let toVC = ToViewController()
+        // MARK: - NavigationTransitionController
+        let navigationTransitionController = NavigationTransitionController(rootViewController: toVC)
+        navigationTransitionController.presentNavigation(self)
     }
-
 }
 
