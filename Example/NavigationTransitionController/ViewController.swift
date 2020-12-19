@@ -26,7 +26,19 @@ class ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(loadToVC(_:)))
         tap.numberOfTapsRequired = 1
         view.isUserInteractionEnabled = true
-        view.addGestureRecognizer(tap)
+        
+        let zoomButton = UIButton(type: .system)
+        zoomButton.translatesAutoresizingMaskIntoConstraints = false
+        zoomButton.setTitle("Zoom Transition", for: .normal)
+        
+        view.addSubview(zoomButton)
+        
+        NSLayoutConstraint.activate([
+            zoomButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            zoomButton.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 16)
+        ])
+        
+        zoomButton.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
     }
 
     @objc fileprivate func loadToVC(_ sender: Any) {
