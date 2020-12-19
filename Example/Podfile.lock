@@ -1,5 +1,5 @@
 PODS:
-  - NavigationTransitionController (0.1.0)
+  - NavigationTransitionController (0.0.1)
 
 DEPENDENCIES:
   - NavigationTransitionController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NavigationTransitionController: 0b45fb5882e0b622e717d123b5d8659a1a2a82b3
+  NavigationTransitionController: 185fde480eed1395e10472412cf052bb2ad1afaa
 
 PODFILE CHECKSUM: e316e7919d741c3678f879d0a3b1693dc9664f8d
 
