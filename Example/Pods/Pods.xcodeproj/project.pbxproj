@@ -7,92 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CF06610AB0EB54DFADE09C2A95A201 /* NavigationTransitionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C13DA50EF5A6FEE68E9B9583582AE3CB /* NavigationTransitionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269DD79ED60D61A66C219F97F8698768 /* iOS+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C30BDAFF0FBDAC051BEC160E5844AC /* iOS+Extension.swift */; };
+		45B7741E2926D6431E7CA99FA1A42F38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		60ABAFC84F0ED010024504B8DC9F5C9E /* Pods-NavigationTransitionController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A63778A4165BBB62387C3E9D7369FD /* Pods-NavigationTransitionController_Tests-dummy.m */; };
+		6C057ADA102831CE30DE8C223049574E /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059CB40979A69F00F658CC6443F8E9EC /* ActiveButton.swift */; };
+		72076BDDA29ABF41558E44A1841B690C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A73C39F4CAFBD96848E4843903E20 /* TextField.swift */; };
 		7C74A1AB5227A3C3E206FE8A7138C269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		808B0E18DC8D4070CA17F978D1EEA3B7 /* NavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423E6FB3A2A932458BFCB981CCDF1AF2 /* NavigationTransitionController.swift */; };
+		81EB72143322FB49DE84EEE68DF65A40 /* NavigationTransitionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE07729F73FB1124E6652A3F7E6817C9 /* NavigationTransitionController-dummy.m */; };
 		863653DDF7E3E5248F37AD1DBBF3B4F0 /* Pods-NavigationTransitionController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC383C5606E4471D261F69847D6CC55F /* Pods-NavigationTransitionController_Example-dummy.m */; };
+		8B0821F84AF793B8934BCD0A4D6818A1 /* NavigationTransitionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E23C728DC2D41E30F527EEDBCF9C6 /* NavigationTransitionOperation.swift */; };
+		8D80CA44791075E19E71D62352FFC938 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560C0DE2F2F39E39FD709AE7156F99B /* NavigationBar.swift */; };
+		975A563D06AC5C1918C5A13B538797BC /* NavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5499739A578BB7601EC3099668B9D29 /* NavigationBarItem.swift */; };
 		A23995CF6B6497EFCD1ADF11171F9548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A4B357F49E61FDC0351F46759BE7C5CF /* Pods-NavigationTransitionController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B0494FE7B0CE10FAB3A57DBD40FA52 /* Pods-NavigationTransitionController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B040C70C3E943BF92BD2B4A152EED93A /* NavigationTransitionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3183244A50B03AC04127DE7D60EF8F /* NavigationTransitionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1133BE5F6B57A4B8FE4991D4BDE0B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B7BB6156258DD27300E3958E /* iOS+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB614B258DD27200E3958E /* iOS+Extension.swift */; };
-		B7BB6157258DD27300E3958E /* NavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB614C258DD27200E3958E /* NavigationBarItem.swift */; };
-		B7BB6158258DD27300E3958E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB614D258DD27300E3958E /* NavigationBar.swift */; };
-		B7BB6159258DD27300E3958E /* NavigationTransitionMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB614E258DD27300E3958E /* NavigationTransitionMath.swift */; };
-		B7BB615A258DD27300E3958E /* NavigationTransitionController+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB614F258DD27300E3958E /* NavigationTransitionController+Methods.swift */; };
-		B7BB615B258DD27300E3958E /* NavigationTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6150258DD27300E3958E /* NavigationTransitionType.swift */; };
-		B7BB615C258DD27300E3958E /* NavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6151258DD27300E3958E /* NavigationTransitionController.swift */; };
-		B7BB615D258DD27300E3958E /* NavigationTransitionController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6152258DD27300E3958E /* NavigationTransitionController+Delegate.swift */; };
-		B7BB615E258DD27300E3958E /* NavigationTransitionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6153258DD27300E3958E /* NavigationTransitionOperation.swift */; };
-		B7BB615F258DD27300E3958E /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6154258DD27300E3958E /* ActiveButton.swift */; };
-		B7BB6160258DD27300E3958E /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB6155258DD27300E3958E /* TextField.swift */; };
+		BA1CF6559A4E0215D2327BD79AC3D522 /* NavigationTransitionController+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C312823E69E32533A13F574AE1523467 /* NavigationTransitionController+Methods.swift */; };
+		BFB5C458910FD970CB431AF3B018BD14 /* NavigationTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933172E0739B68A6DEF0764B8ACBD39 /* NavigationTransitionType.swift */; };
 		C4F081C88565B551D3F2B0250DBED736 /* Pods-NavigationTransitionController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 157F30FA70D9A0BCDFD79D79D9DFC3D8 /* Pods-NavigationTransitionController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8CF1A79B09CA2738B4898A1A99906C8 /* NavigationTransitionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB1C514E82A6A12E1A9C170AFF5B72 /* NavigationTransitionController-dummy.m */; };
+		DFF291CD7AB285AF5BBE20E651B11E1C /* NavigationTransitionMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C4BAE1D8CAE73A3955A508249866B /* NavigationTransitionMath.swift */; };
+		EB18BDAB17475CE05904211EEF0491DD /* NavigationTransitionController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9608E63C581E0A0F9E552EA20F5F9C90 /* NavigationTransitionController+Delegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0ECC10ACD137066BF30712A03D76BD9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31D29A9D86DD9A45199331A501273D19;
-			remoteInfo = "Pods-NavigationTransitionController_Example";
-		};
-		3EACDFD5FA1D1B4C85EE25E296670013 /* PBXContainerItemProxy */ = {
+		0123E25E05618CE233CF465DAB809500 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A12C59007353D3EA204486EAD238FDFF;
 			remoteInfo = NavigationTransitionController;
 		};
+		919F6E64A87EF8847F9B5F743E7A1E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D29A9D86DD9A45199331A501273D19;
+			remoteInfo = "Pods-NavigationTransitionController_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04D9FA8C28887992C5DD82C72671312B /* Pods-NavigationTransitionController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationTransitionController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0560C0DE2F2F39E39FD709AE7156F99B /* NavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBar.swift; path = Classes/NavigationBar.swift; sourceTree = "<group>"; };
+		059CB40979A69F00F658CC6443F8E9EC /* ActiveButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveButton.swift; path = Classes/ActiveButton.swift; sourceTree = "<group>"; };
+		0A3E23C728DC2D41E30F527EEDBCF9C6 /* NavigationTransitionOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionOperation.swift; path = Classes/NavigationTransitionOperation.swift; sourceTree = "<group>"; };
 		0CEB0BF3D422AC4F1B679FFEE282648B /* Pods-NavigationTransitionController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationTransitionController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		13907FE85EC181A196D6EAECCBC4B7E7 /* Pods-NavigationTransitionController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Example-Info.plist"; sourceTree = "<group>"; };
 		157F30FA70D9A0BCDFD79D79D9DFC3D8 /* Pods-NavigationTransitionController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationTransitionController_Example-umbrella.h"; sourceTree = "<group>"; };
 		27FFAFAB0DC889D5E6D5A65FDD38B006 /* Pods-NavigationTransitionController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavigationTransitionController_Tests.modulemap"; sourceTree = "<group>"; };
+		32B0B67CB63189C2320A0BD13386BCDA /* NavigationTransitionController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.debug.xcconfig; sourceTree = "<group>"; };
 		3AFECD72F467411AEA0C44CE18B6B4EE /* Pods-NavigationTransitionController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationTransitionController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EBB1C514E82A6A12E1A9C170AFF5B72 /* NavigationTransitionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationTransitionController-dummy.m"; sourceTree = "<group>"; };
+		423E6FB3A2A932458BFCB981CCDF1AF2 /* NavigationTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionController.swift; path = Classes/NavigationTransitionController.swift; sourceTree = "<group>"; };
+		43C74F761312CBD724FFA6E8727B5D5F /* NavigationTransitionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationTransitionController-Info.plist"; sourceTree = "<group>"; };
 		4ED9E0B4EAE4077ED4C4ABE54319CEC3 /* Pods-NavigationTransitionController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52C6B375F80A52771AE232A699DB86FB /* NavigationTransitionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NavigationTransitionController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C83548D0D5099C26BE91EC801B8F9CC /* Pods-NavigationTransitionController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E3C4BAE1D8CAE73A3955A508249866B /* NavigationTransitionMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionMath.swift; path = Classes/NavigationTransitionMath.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7516DEE7F1897234ECE157A127C25559 /* Pods-NavigationTransitionController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavigationTransitionController_Example.modulemap"; sourceTree = "<group>"; };
-		763FDF0F958445416D1EEA099D7FDE25 /* NavigationTransitionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationTransitionController-Info.plist"; sourceTree = "<group>"; };
-		7E5D1D0E9E5022EF2FAB0D2BEF3DB04E /* Pods_NavigationTransitionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTransitionController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83EFDC75BD3E1EBCA20CFEDA9D52EAFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		84413DB83106729FAFB6025D2C792386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		85C2E3BADC3DA09F3B769BE1437E4A1A /* NavigationTransitionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationTransitionController.modulemap; sourceTree = "<group>"; };
+		77390E7108100D8EE48F430870603D09 /* NavigationTransitionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-prefix.pch"; sourceTree = "<group>"; };
+		7E5D1D0E9E5022EF2FAB0D2BEF3DB04E /* Pods_NavigationTransitionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationTransitionController_Example.framework; path = "Pods-NavigationTransitionController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CC9349135C38A0F44AADC4AC52DD5F /* Pods-NavigationTransitionController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Tests-Info.plist"; sourceTree = "<group>"; };
 		93B0494FE7B0CE10FAB3A57DBD40FA52 /* Pods-NavigationTransitionController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationTransitionController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		975A9B6994351C2A726FADB12D7907BB /* NavigationTransitionController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9608E63C581E0A0F9E552EA20F5F9C90 /* NavigationTransitionController+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Delegate.swift"; path = "Classes/NavigationTransitionController+Delegate.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E415E936C7BB4EFA9AB9826FCB9A624 /* NavigationTransitionController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.release.xcconfig; sourceTree = "<group>"; };
 		A9A63778A4165BBB62387C3E9D7369FD /* Pods-NavigationTransitionController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationTransitionController_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9B96C6E446D4DE98EC966493E5317CD /* Pods_NavigationTransitionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTransitionController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EF5DC9393E6977AE279D219D7EB1D0 /* NavigationTransitionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-prefix.pch"; sourceTree = "<group>"; };
-		B7BB614B258DD27200E3958E /* iOS+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOS+Extension.swift"; sourceTree = "<group>"; };
-		B7BB614C258DD27200E3958E /* NavigationBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarItem.swift; sourceTree = "<group>"; };
-		B7BB614D258DD27300E3958E /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		B7BB614E258DD27300E3958E /* NavigationTransitionMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTransitionMath.swift; sourceTree = "<group>"; };
-		B7BB614F258DD27300E3958E /* NavigationTransitionController+Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationTransitionController+Methods.swift"; sourceTree = "<group>"; };
-		B7BB6150258DD27300E3958E /* NavigationTransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTransitionType.swift; sourceTree = "<group>"; };
-		B7BB6151258DD27300E3958E /* NavigationTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTransitionController.swift; sourceTree = "<group>"; };
-		B7BB6152258DD27300E3958E /* NavigationTransitionController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationTransitionController+Delegate.swift"; sourceTree = "<group>"; };
-		B7BB6153258DD27300E3958E /* NavigationTransitionOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTransitionOperation.swift; sourceTree = "<group>"; };
-		B7BB6154258DD27300E3958E /* ActiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
-		B7BB6155258DD27300E3958E /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		A9B96C6E446D4DE98EC966493E5317CD /* Pods_NavigationTransitionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationTransitionController_Tests.framework; path = "Pods-NavigationTransitionController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE07729F73FB1124E6652A3F7E6817C9 /* NavigationTransitionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationTransitionController-dummy.m"; sourceTree = "<group>"; };
+		B6FEEB4280380A3D9E37DF13E1A82B75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BF7A3A78B94B5A8D9D64779DD6B4C518 /* Pods-NavigationTransitionController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationTransitionController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C523F1D7F3421DDD24EC3C57F245CBED /* NavigationTransitionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NavigationTransitionController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C13DA50EF5A6FEE68E9B9583582AE3CB /* NavigationTransitionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-umbrella.h"; sourceTree = "<group>"; };
+		C312823E69E32533A13F574AE1523467 /* NavigationTransitionController+Methods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Methods.swift"; path = "Classes/NavigationTransitionController+Methods.swift"; sourceTree = "<group>"; };
 		C53113B2F0757C7744C58D9AD09757D6 /* Pods-NavigationTransitionController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationTransitionController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C56A73C39F4CAFBD96848E4843903E20 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Classes/TextField.swift; sourceTree = "<group>"; };
 		C768B9E20F5F0869AFD9012A544E34B2 /* Pods-NavigationTransitionController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationTransitionController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationTransitionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1CF907AAC94DB9013F6DA4BE95CA003 /* NavigationTransitionController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.debug.xcconfig; sourceTree = "<group>"; };
+		C7C30BDAFF0FBDAC051BEC160E5844AC /* iOS+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "iOS+Extension.swift"; path = "Classes/iOS+Extension.swift"; sourceTree = "<group>"; };
+		CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationTransitionController.framework; path = NavigationTransitionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D13D1F16488DF9B827BA37441F9FC /* Pods-NavigationTransitionController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationTransitionController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC3183244A50B03AC04127DE7D60EF8F /* NavigationTransitionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-umbrella.h"; sourceTree = "<group>"; };
+		D933172E0739B68A6DEF0764B8ACBD39 /* NavigationTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionType.swift; path = Classes/NavigationTransitionType.swift; sourceTree = "<group>"; };
+		D9AE2F8DBC9CC127EBDA6959C806CBD2 /* NavigationTransitionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationTransitionController.modulemap; sourceTree = "<group>"; };
+		E5499739A578BB7601EC3099668B9D29 /* NavigationBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarItem.swift; path = Classes/NavigationBarItem.swift; sourceTree = "<group>"; };
 		EC383C5606E4471D261F69847D6CC55F /* Pods-NavigationTransitionController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationTransitionController_Example-dummy.m"; sourceTree = "<group>"; };
+		F3D88DE6597598EE486872DA6292BD95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		354606F763E2F5B2A68B35D1AF757016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B7741E2926D6431E7CA99FA1A42F38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C45DC9359B49D736D920FB045C43367 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,23 +117,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3552FD4CF82669D61B67BF304411D0F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1133BE5F6B57A4B8FE4991D4BDE0B85 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40B5AF2FC872FC817424F64D5595EFEA /* Development Pods */ = {
+		3FCA1FA5696BF47BD28EB704ACE0B62A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83180105A229F7C45DEC1840B886D012 /* NavigationTransitionController */,
+				D9AE2F8DBC9CC127EBDA6959C806CBD2 /* NavigationTransitionController.modulemap */,
+				AE07729F73FB1124E6652A3F7E6817C9 /* NavigationTransitionController-dummy.m */,
+				43C74F761312CBD724FFA6E8727B5D5F /* NavigationTransitionController-Info.plist */,
+				77390E7108100D8EE48F430870603D09 /* NavigationTransitionController-prefix.pch */,
+				C13DA50EF5A6FEE68E9B9583582AE3CB /* NavigationTransitionController-umbrella.h */,
+				32B0B67CB63189C2320A0BD13386BCDA /* NavigationTransitionController.debug.xcconfig */,
+				9E415E936C7BB4EFA9AB9826FCB9A624 /* NavigationTransitionController.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NavigationTransitionController";
+			sourceTree = "<group>";
+		};
+		42344409A5157A9A4FC286FABA5211CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6FEEB4280380A3D9E37DF13E1A82B75 /* LICENSE */,
+				52C6B375F80A52771AE232A699DB86FB /* NavigationTransitionController.podspec */,
+				F3D88DE6597598EE486872DA6292BD95 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		466D689EC41C14B68617BA28BC154473 /* Pods-NavigationTransitionController_Tests */ = {
@@ -152,6 +169,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		65ED0B15CAC7AE2AF468BA156BAD6612 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73264BC7BB60EED3C46B1DEBEB2DF33A /* NavigationTransitionController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		6DEFA49198E1413DAA57734D396AF88D /* Pods-NavigationTransitionController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,12 +194,22 @@
 			path = "Target Support Files/Pods-NavigationTransitionController_Example";
 			sourceTree = "<group>";
 		};
-		83180105A229F7C45DEC1840B886D012 /* NavigationTransitionController */ = {
+		73264BC7BB60EED3C46B1DEBEB2DF33A /* NavigationTransitionController */ = {
 			isa = PBXGroup;
 			children = (
-				B7BB6164258DD27800E3958E /* Classes */,
-				A86F0F2F2F3A4FC5B41428F8FB2A0F3D /* Pod */,
-				AF06B2F22C157ED2EF8911B4098FB384 /* Support Files */,
+				059CB40979A69F00F658CC6443F8E9EC /* ActiveButton.swift */,
+				C7C30BDAFF0FBDAC051BEC160E5844AC /* iOS+Extension.swift */,
+				0560C0DE2F2F39E39FD709AE7156F99B /* NavigationBar.swift */,
+				E5499739A578BB7601EC3099668B9D29 /* NavigationBarItem.swift */,
+				423E6FB3A2A932458BFCB981CCDF1AF2 /* NavigationTransitionController.swift */,
+				9608E63C581E0A0F9E552EA20F5F9C90 /* NavigationTransitionController+Delegate.swift */,
+				C312823E69E32533A13F574AE1523467 /* NavigationTransitionController+Methods.swift */,
+				6E3C4BAE1D8CAE73A3955A508249866B /* NavigationTransitionMath.swift */,
+				0A3E23C728DC2D41E30F527EEDBCF9C6 /* NavigationTransitionOperation.swift */,
+				D933172E0739B68A6DEF0764B8ACBD39 /* NavigationTransitionType.swift */,
+				C56A73C39F4CAFBD96848E4843903E20 /* TextField.swift */,
+				42344409A5157A9A4FC286FABA5211CE /* Pod */,
+				3FCA1FA5696BF47BD28EB704ACE0B62A /* Support Files */,
 			);
 			name = NavigationTransitionController;
 			path = ../..;
@@ -187,49 +222,6 @@
 				466D689EC41C14B68617BA28BC154473 /* Pods-NavigationTransitionController_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A86F0F2F2F3A4FC5B41428F8FB2A0F3D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				83EFDC75BD3E1EBCA20CFEDA9D52EAFB /* LICENSE */,
-				C523F1D7F3421DDD24EC3C57F245CBED /* NavigationTransitionController.podspec */,
-				84413DB83106729FAFB6025D2C792386 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AF06B2F22C157ED2EF8911B4098FB384 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				85C2E3BADC3DA09F3B769BE1437E4A1A /* NavigationTransitionController.modulemap */,
-				4EBB1C514E82A6A12E1A9C170AFF5B72 /* NavigationTransitionController-dummy.m */,
-				763FDF0F958445416D1EEA099D7FDE25 /* NavigationTransitionController-Info.plist */,
-				B5EF5DC9393E6977AE279D219D7EB1D0 /* NavigationTransitionController-prefix.pch */,
-				DC3183244A50B03AC04127DE7D60EF8F /* NavigationTransitionController-umbrella.h */,
-				D1CF907AAC94DB9013F6DA4BE95CA003 /* NavigationTransitionController.debug.xcconfig */,
-				975A9B6994351C2A726FADB12D7907BB /* NavigationTransitionController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NavigationTransitionController";
-			sourceTree = "<group>";
-		};
-		B7BB6164258DD27800E3958E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B7BB614B258DD27200E3958E /* iOS+Extension.swift */,
-				B7BB6154258DD27300E3958E /* ActiveButton.swift */,
-				B7BB614D258DD27300E3958E /* NavigationBar.swift */,
-				B7BB614C258DD27200E3958E /* NavigationBarItem.swift */,
-				B7BB6151258DD27300E3958E /* NavigationTransitionController.swift */,
-				B7BB6152258DD27300E3958E /* NavigationTransitionController+Delegate.swift */,
-				B7BB614F258DD27300E3958E /* NavigationTransitionController+Methods.swift */,
-				B7BB614E258DD27300E3958E /* NavigationTransitionMath.swift */,
-				B7BB6153258DD27300E3958E /* NavigationTransitionOperation.swift */,
-				B7BB6150258DD27300E3958E /* NavigationTransitionType.swift */,
-				B7BB6155258DD27300E3958E /* TextField.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BF5C81DCF0D43FD3DBFD908EEB97329B /* Products */ = {
@@ -246,7 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				40B5AF2FC872FC817424F64D5595EFEA /* Development Pods */,
+				65ED0B15CAC7AE2AF468BA156BAD6612 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BF5C81DCF0D43FD3DBFD908EEB97329B /* Products */,
 				918A663CB5D4D879E073BB9580063DD4 /* Targets Support Files */,
@@ -280,11 +272,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C6247DD55E309F3B39DAE0C58ECA1A8 /* Headers */ = {
+		D83D327BBE12A48E0FF2804F2EE5ACC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B040C70C3E943BF92BD2B4A152EED93A /* NavigationTransitionController-umbrella.h in Headers */,
+				04CF06610AB0EB54DFADE09C2A95A201 /* NavigationTransitionController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A866DFF906271AB70E716AFEF6B33247 /* PBXTargetDependency */,
+				B300A1512BDCD7A94ADEE4A4FFF54911 /* PBXTargetDependency */,
 			);
 			name = "Pods-NavigationTransitionController_Example";
 			productName = "Pods-NavigationTransitionController_Example";
@@ -312,12 +304,12 @@
 		};
 		A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D998BE3DE3644F436E29845C4E1C79A /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */;
+			buildConfigurationList = 7BD955F2CEBDD94968A3E720013EB7C4 /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */;
 			buildPhases = (
-				7C6247DD55E309F3B39DAE0C58ECA1A8 /* Headers */,
-				F320A5C19FACC38925096272B3432FA4 /* Sources */,
-				E3552FD4CF82669D61B67BF304411D0F /* Frameworks */,
-				E0D378BDA839445551C4D25507C09F32 /* Resources */,
+				D83D327BBE12A48E0FF2804F2EE5ACC2 /* Headers */,
+				164D85C79859F55E5FBEBCD78E8DB1B1 /* Sources */,
+				354606F763E2F5B2A68B35D1AF757016 /* Frameworks */,
+				0219000191E82A095A786389AB629ED2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,7 +332,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				188739FE3174F20D3BECA8A8F4DB4F37 /* PBXTargetDependency */,
+				D3DFA78D121436BB72E4C7A43A492E3F /* PBXTargetDependency */,
 			);
 			name = "Pods-NavigationTransitionController_Tests";
 			productName = "Pods-NavigationTransitionController_Tests";
@@ -355,11 +347,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					A12C59007353D3EA204486EAD238FDFF = {
-						LastSwiftMigration = 1230;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,6 +369,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0219000191E82A095A786389AB629ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84DEDFAA6B5E642D810B6B849F5046C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,16 +390,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0D378BDA839445551C4D25507C09F32 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		164D85C79859F55E5FBEBCD78E8DB1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C057ADA102831CE30DE8C223049574E /* ActiveButton.swift in Sources */,
+				269DD79ED60D61A66C219F97F8698768 /* iOS+Extension.swift in Sources */,
+				8D80CA44791075E19E71D62352FFC938 /* NavigationBar.swift in Sources */,
+				975A563D06AC5C1918C5A13B538797BC /* NavigationBarItem.swift in Sources */,
+				EB18BDAB17475CE05904211EEF0491DD /* NavigationTransitionController+Delegate.swift in Sources */,
+				BA1CF6559A4E0215D2327BD79AC3D522 /* NavigationTransitionController+Methods.swift in Sources */,
+				81EB72143322FB49DE84EEE68DF65A40 /* NavigationTransitionController-dummy.m in Sources */,
+				808B0E18DC8D4070CA17F978D1EEA3B7 /* NavigationTransitionController.swift in Sources */,
+				DFF291CD7AB285AF5BBE20E651B11E1C /* NavigationTransitionMath.swift in Sources */,
+				8B0821F84AF793B8934BCD0A4D6818A1 /* NavigationTransitionOperation.swift in Sources */,
+				BFB5C458910FD970CB431AF3B018BD14 /* NavigationTransitionType.swift in Sources */,
+				72076BDDA29ABF41558E44A1841B690C /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E3C7CD8BC502274E4DD48ABF18F05A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,39 +428,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F320A5C19FACC38925096272B3432FA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7BB615F258DD27300E3958E /* ActiveButton.swift in Sources */,
-				B7BB615E258DD27300E3958E /* NavigationTransitionOperation.swift in Sources */,
-				B7BB615D258DD27300E3958E /* NavigationTransitionController+Delegate.swift in Sources */,
-				B7BB6160258DD27300E3958E /* TextField.swift in Sources */,
-				E8CF1A79B09CA2738B4898A1A99906C8 /* NavigationTransitionController-dummy.m in Sources */,
-				B7BB615B258DD27300E3958E /* NavigationTransitionType.swift in Sources */,
-				B7BB615A258DD27300E3958E /* NavigationTransitionController+Methods.swift in Sources */,
-				B7BB6157258DD27300E3958E /* NavigationBarItem.swift in Sources */,
-				B7BB6156258DD27300E3958E /* iOS+Extension.swift in Sources */,
-				B7BB6159258DD27300E3958E /* NavigationTransitionMath.swift in Sources */,
-				B7BB615C258DD27300E3958E /* NavigationTransitionController.swift in Sources */,
-				B7BB6158258DD27300E3958E /* NavigationBar.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		188739FE3174F20D3BECA8A8F4DB4F37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NavigationTransitionController_Example";
-			target = 31D29A9D86DD9A45199331A501273D19 /* Pods-NavigationTransitionController_Example */;
-			targetProxy = 0ECC10ACD137066BF30712A03D76BD9F /* PBXContainerItemProxy */;
-		};
-		A866DFF906271AB70E716AFEF6B33247 /* PBXTargetDependency */ = {
+		B300A1512BDCD7A94ADEE4A4FFF54911 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NavigationTransitionController;
 			target = A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */;
-			targetProxy = 3EACDFD5FA1D1B4C85EE25E296670013 /* PBXContainerItemProxy */;
+			targetProxy = 0123E25E05618CE233CF465DAB809500 /* PBXContainerItemProxy */;
+		};
+		D3DFA78D121436BB72E4C7A43A492E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NavigationTransitionController_Example";
+			target = 31D29A9D86DD9A45199331A501273D19 /* Pods-NavigationTransitionController_Example */;
+			targetProxy = 919F6E64A87EF8847F9B5F743E7A1E9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -474,7 +461,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.modulemap";
@@ -485,7 +472,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests.modulemap";
@@ -519,7 +505,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -527,11 +512,11 @@
 			};
 			name = Release;
 		};
-		248F29724644142EDC883B11AC1414D3 /* Debug */ = {
+		241FB17D8A9BAE5CD75B22E646FD0356 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1CF907AAC94DB9013F6DA4BE95CA003 /* NavigationTransitionController.debug.xcconfig */;
+			baseConfigurationReference = 32B0B67CB63189C2320A0BD13386BCDA /* NavigationTransitionController.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -550,9 +535,7 @@
 				PRODUCT_NAME = NavigationTransitionController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -613,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -641,7 +624,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.modulemap";
@@ -652,12 +635,43 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		42D6341342D4E4E5F148F0636E0E92D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E415E936C7BB4EFA9AB9826FCB9A624 /* NavigationTransitionController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationTransitionController/NavigationTransitionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController.modulemap";
+				PRODUCT_MODULE_NAME = NavigationTransitionController;
+				PRODUCT_NAME = NavigationTransitionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -709,12 +723,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -735,7 +750,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests.modulemap";
@@ -746,45 +761,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		FE8E9AAC574591AD3A443B535E68A3AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 975A9B6994351C2A726FADB12D7907BB /* NavigationTransitionController.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NavigationTransitionController/NavigationTransitionController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController.modulemap";
-				PRODUCT_MODULE_NAME = NavigationTransitionController;
-				PRODUCT_NAME = NavigationTransitionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -807,11 +788,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D998BE3DE3644F436E29845C4E1C79A /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */ = {
+		7BD955F2CEBDD94968A3E720013EB7C4 /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248F29724644142EDC883B11AC1414D3 /* Debug */,
-				FE8E9AAC574591AD3A443B535E68A3AD /* Release */,
+				241FB17D8A9BAE5CD75B22E646FD0356 /* Debug */,
+				42D6341342D4E4E5F148F0636E0E92D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
