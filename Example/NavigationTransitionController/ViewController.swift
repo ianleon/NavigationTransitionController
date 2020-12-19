@@ -13,7 +13,7 @@ import NavigationTransitionController
 class ToViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .white
     }
 }
 
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        view.backgroundColor = .systemGray5
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(loadToVC(_:)))
         tap.numberOfTapsRequired = 1
