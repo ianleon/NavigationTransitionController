@@ -8,35 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NavigationTransitionController'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NavigationTransitionController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/HackShitUp/NavigationTransitionController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '0.0.1'
+  s.summary          = 'Designed by Nanogram, Inc. in New York'
+  s.description      = 'UINavigationController subclass that simplifies interactive transition animations when presenting or dismissing view controllers on iOS.'
+  s.homepage         = 'https://github.com/Nanogram-Inc/NavigationTransitionController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HackShitUp' => 'josh.m.choi@gmail.com' }
   s.source           = { :git => 'https://github.com/HackShitUp/NavigationTransitionController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'NavigationTransitionController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NavigationTransitionController' => ['NavigationTransitionController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '13.0'
+  s.source_files = 'Classes/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms =  {
+      "ios": "13.0"
+  }
 end
