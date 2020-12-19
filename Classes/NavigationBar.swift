@@ -13,7 +13,7 @@ import UIKit
 // MARK: - NavigationTitleView
 public class NavigationTitleView: UIView {
     public override var intrinsicContentSize: CGSize {
-        return UILayoutFittingExpandedSize
+        return UIView.layoutFittingExpandedSize
     }
 }
 

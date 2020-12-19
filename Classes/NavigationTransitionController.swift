@@ -188,8 +188,8 @@ public class NavigationTransitionController: UINavigationController {
             // Only call the view controller's life cycle if the underlying view controller is the application's top view controller
             if let navigationController = underlyingViewController as? UINavigationController, UIApplication.topViewController == underlyingViewController {
                 // MARK: - UINavigationController
-                navigationController.childViewControllers.first?.viewWillAppear(true)
-                navigationController.childViewControllers.first?.viewDidAppear(true)
+                navigationController.children.first?.viewWillAppear(true)
+                navigationController.children.first?.viewDidAppear(true)
 
             } else if UIApplication.topViewController == underlyingViewController {
                 // MARK: - UIViewController
