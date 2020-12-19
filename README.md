@@ -222,7 +222,7 @@ pod 'NavigationTransitionController'
 
 ## Author
 
-HackShitUp, josh.m.choi@gmail.com
+HackShitUp, josh@nanolens.co
 Nanogram, Inc. nanolens@nanolens.co
 
 ## License
