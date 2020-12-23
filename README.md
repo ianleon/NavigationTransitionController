@@ -12,6 +12,8 @@ Due to restrictions pertaining to the default animations applied to a navigation
 
 A quick look at these documentations indicate degress of complexity that require significant amount of attention and detail for it to simply work. Below are example architectures of how one might implement an interactive transition animation when navigating _from_ a view controller _to_ another view controller.
 ![Before](Resources/Before.png?raw=true "Before")
+Credit: Apple
+https://developer.apple.com/videos/play/wwdc2016/216/
 
 ## How It Works
 The ```NavigationTransitionController``` works right out of the box. It's architected in such a way where all of its animations and managements are contained within this single class. 
