@@ -60,22 +60,22 @@
 		423E6FB3A2A932458BFCB981CCDF1AF2 /* NavigationTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionController.swift; path = Classes/NavigationTransitionController.swift; sourceTree = "<group>"; };
 		43C74F761312CBD724FFA6E8727B5D5F /* NavigationTransitionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationTransitionController-Info.plist"; sourceTree = "<group>"; };
 		4ED9E0B4EAE4077ED4C4ABE54319CEC3 /* Pods-NavigationTransitionController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52C6B375F80A52771AE232A699DB86FB /* NavigationTransitionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NavigationTransitionController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52C6B375F80A52771AE232A699DB86FB /* NavigationTransitionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NavigationTransitionController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C83548D0D5099C26BE91EC801B8F9CC /* Pods-NavigationTransitionController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E3C4BAE1D8CAE73A3955A508249866B /* NavigationTransitionMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionMath.swift; path = Classes/NavigationTransitionMath.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7516DEE7F1897234ECE157A127C25559 /* Pods-NavigationTransitionController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavigationTransitionController_Example.modulemap"; sourceTree = "<group>"; };
 		77390E7108100D8EE48F430870603D09 /* NavigationTransitionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-prefix.pch"; sourceTree = "<group>"; };
-		7E5D1D0E9E5022EF2FAB0D2BEF3DB04E /* Pods_NavigationTransitionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationTransitionController_Example.framework; path = "Pods-NavigationTransitionController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5D1D0E9E5022EF2FAB0D2BEF3DB04E /* Pods_NavigationTransitionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTransitionController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CC9349135C38A0F44AADC4AC52DD5F /* Pods-NavigationTransitionController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationTransitionController_Tests-Info.plist"; sourceTree = "<group>"; };
 		93B0494FE7B0CE10FAB3A57DBD40FA52 /* Pods-NavigationTransitionController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationTransitionController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9608E63C581E0A0F9E552EA20F5F9C90 /* NavigationTransitionController+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Delegate.swift"; path = "Classes/NavigationTransitionController+Delegate.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E415E936C7BB4EFA9AB9826FCB9A624 /* NavigationTransitionController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.release.xcconfig; sourceTree = "<group>"; };
 		A9A63778A4165BBB62387C3E9D7369FD /* Pods-NavigationTransitionController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationTransitionController_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9B96C6E446D4DE98EC966493E5317CD /* Pods_NavigationTransitionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationTransitionController_Tests.framework; path = "Pods-NavigationTransitionController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B96C6E446D4DE98EC966493E5317CD /* Pods_NavigationTransitionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTransitionController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE07729F73FB1124E6652A3F7E6817C9 /* NavigationTransitionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationTransitionController-dummy.m"; sourceTree = "<group>"; };
-		B6FEEB4280380A3D9E37DF13E1A82B75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6FEEB4280380A3D9E37DF13E1A82B75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF7A3A78B94B5A8D9D64779DD6B4C518 /* Pods-NavigationTransitionController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationTransitionController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C13DA50EF5A6FEE68E9B9583582AE3CB /* NavigationTransitionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-umbrella.h"; sourceTree = "<group>"; };
 		C312823E69E32533A13F574AE1523467 /* NavigationTransitionController+Methods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Methods.swift"; path = "Classes/NavigationTransitionController+Methods.swift"; sourceTree = "<group>"; };
@@ -83,13 +83,13 @@
 		C56A73C39F4CAFBD96848E4843903E20 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Classes/TextField.swift; sourceTree = "<group>"; };
 		C768B9E20F5F0869AFD9012A544E34B2 /* Pods-NavigationTransitionController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationTransitionController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7C30BDAFF0FBDAC051BEC160E5844AC /* iOS+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "iOS+Extension.swift"; path = "Classes/iOS+Extension.swift"; sourceTree = "<group>"; };
-		CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationTransitionController.framework; path = NavigationTransitionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationTransitionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D13D1F16488DF9B827BA37441F9FC /* Pods-NavigationTransitionController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationTransitionController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D933172E0739B68A6DEF0764B8ACBD39 /* NavigationTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionType.swift; path = Classes/NavigationTransitionType.swift; sourceTree = "<group>"; };
 		D9AE2F8DBC9CC127EBDA6959C806CBD2 /* NavigationTransitionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationTransitionController.modulemap; sourceTree = "<group>"; };
 		E5499739A578BB7601EC3099668B9D29 /* NavigationBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarItem.swift; path = Classes/NavigationBarItem.swift; sourceTree = "<group>"; };
 		EC383C5606E4471D261F69847D6CC55F /* Pods-NavigationTransitionController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationTransitionController_Example-dummy.m"; sourceTree = "<group>"; };
-		F3D88DE6597598EE486872DA6292BD95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F3D88DE6597598EE486872DA6292BD95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,7 +346,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1230;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -461,7 +461,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.modulemap";
@@ -494,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests.modulemap";
@@ -596,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -624,7 +624,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.modulemap";
@@ -723,13 +723,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -750,7 +749,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests.modulemap";

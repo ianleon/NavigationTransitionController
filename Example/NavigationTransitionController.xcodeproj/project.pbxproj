@@ -44,6 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		97D20EFDCC4AFBBF387D47A3 /* NavigationTransitionController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationTransitionController.podspec; path = ../NavigationTransitionController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AF7CFE382710ABC58C58D87 /* Pods-NavigationTransitionController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTransitionController_Example.release.xcconfig"; path = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6A5F3B72592D74200681F9A /* NavigationTransitionController_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationTransitionController_Example.entitlements; sourceTree = "<group>"; };
 		AFA9643E0509C89053C3FEFE /* Pods_NavigationTransitionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationTransitionController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F252B501BF336BB0DB9A1FF1 /* Pods-NavigationTransitionController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTransitionController_Example.debug.xcconfig"; path = "Target Support Files/Pods-NavigationTransitionController_Example/Pods-NavigationTransitionController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6C100479FF6B14CD9B3131B /* Pods-NavigationTransitionController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTransitionController_Tests.release.xcconfig"; path = "Target Support Files/Pods-NavigationTransitionController_Tests/Pods-NavigationTransitionController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A6A5F3B72592D74200681F9A /* NavigationTransitionController_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NavigationTransitionController */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -212,12 +214,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 8G5CAZ7TR7;
+						DevelopmentTeam = F53EG8ZE38;
 						LastSwiftMigration = 1230;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 8G5CAZ7TR7;
+						DevelopmentTeam = F53EG8ZE38;
 						LastSwiftMigration = 1230;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -487,15 +489,19 @@
 			baseConfigurationReference = F252B501BF336BB0DB9A1FF1 /* Pods-NavigationTransitionController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8G5CAZ7TR7;
+				CODE_SIGN_ENTITLEMENTS = NavigationTransitionController_Example.entitlements;
+				DEVELOPMENT_TEAM = F53EG8ZE38;
 				INFOPLIST_FILE = NavigationTransitionController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -504,15 +510,19 @@
 			baseConfigurationReference = 9AF7CFE382710ABC58C58D87 /* Pods-NavigationTransitionController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8G5CAZ7TR7;
+				CODE_SIGN_ENTITLEMENTS = NavigationTransitionController_Example.entitlements;
+				DEVELOPMENT_TEAM = F53EG8ZE38;
 				INFOPLIST_FILE = NavigationTransitionController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -520,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3972F79D56D067804BE0D346 /* Pods-NavigationTransitionController_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 8G5CAZ7TR7;
+				DEVELOPMENT_TEAM = F53EG8ZE38;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,7 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6C100479FF6B14CD9B3131B /* Pods-NavigationTransitionController_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 8G5CAZ7TR7;
+				DEVELOPMENT_TEAM = F53EG8ZE38;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
